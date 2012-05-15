@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+<!--  this stuff all just sets up the layout of the page, it's pretty easy to get. -->
+    <TextView
+    	android:id="@+id/toptext" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Select Level" />
+    <Button
+    	android:layout_below="@+id/toptext"
+    	android:id="@+id/tutorial"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
+    	android:text="Tutorial"/>
+    <Button
+        android:layout_below="@+id/tutorial"
+        android:id="@+id/levelOne"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Level One" />
+    <Button 
+        android:layout_below="@+id/levelOne"
+        android:id="@+id/freeflight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Free Flight"/>
+
+</RelativeLayout>
